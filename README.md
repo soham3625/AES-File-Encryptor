@@ -1,5 +1,3 @@
-# AES-File-Encryptor
-GUI tool to encrypt and decrypt files using AES-256 (CBC) with a simple Python/Tkinter interface.
 # 🔐 AES File Encryptor/Decryptor (GUI)
 
 A simple, lightweight, and secure GUI tool built with Python and Tkinter to encrypt and decrypt files using AES-256 in CBC mode.
