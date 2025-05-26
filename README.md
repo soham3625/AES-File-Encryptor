@@ -23,21 +23,16 @@ A simple, lightweight, and secure GUI tool built with Python and Tkinter to encr
 ### Installation
 
 Install the required dependency using pip:
-
-```bash
 pip install pycryptodome
 Running the Tool
 Clone the repository or download the script.
 
-Run the script:
-
-bash
-Copy
-Edit
+### Run the script:
 python gui_tool.py
-Use the interface to:
 
-Browse and select a file.
+### Use the interface to:
+
+Browse and select a file. 
 
 Enter a secret key (password).
 
@@ -45,20 +40,20 @@ Click Encrypt or Decrypt.
 
 Click Run to process the file.
 
-📁 File Descriptions
-File	Description
-gui_tool.py	Main application script with GUI and encryption logic
-requirements.txt	Python dependencies
-README.md	Project documentation
+### 📁 File Descriptions
+File               	Description
+gui_tool.py    	    Main application script with GUI and encryption logic
+requirements.txt 	  Python dependencies
+README.md	          Project documentation
 
-🛡️ Security Note
+### 🛡️ Security Note
 This tool uses AES-256 encryption with a password-derived key via SHA-256 hashing.
 
 Ensure you remember your password — encrypted files cannot be recovered without it.
 
 Use strong and unique passwords for better security.
 
-🧪 Example
+### 🧪 Example
 Encrypted files will be saved as: yourfile.txt.enc
 
 Decrypted files will be restored to their original name or as yourfile.dec if original exists.
